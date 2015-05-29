@@ -5,9 +5,7 @@ require 'rmagick'
 FONT_NAME = './GN-KillGothic-U-KanaNA.ttf'
 
 get '/' do
-  img = kill_me_baby
-  content_type 'image/png'
-  img.to_blob
+  erb :index
 end
 
 get '/:query' do
