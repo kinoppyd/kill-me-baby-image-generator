@@ -9,6 +9,8 @@ sh init.sh
 bundle install --path tmp/gems
 bundle exec ruby kill_me_baby.rb
 ```
+# Licence
+WTFPL
 
 # Thanks
 [GN's Side](http://getsuren.com/)
